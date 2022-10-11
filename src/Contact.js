@@ -4,10 +4,10 @@ function Contact() {
   };
 
   return (
-    <div id='container-contact'>
+    <section id='container-contact'>
       <img className="contact-image" src="https://media-exp1.licdn.com/dms/image/C5603AQGVH2neRdC69w/profile-displayphoto-shrink_800_800/0/1585000630069?e=1670457600&v=beta&t=-2pK7hbda6u7HCUsR4aU4_YMh2h5P8c7KatEPMLfosA" width="210" height="210" alt="about"></img>
       <div className="contact-text">
-      <p className="header"> about me.</p>
+      <h2 className="header"> about me.</h2>
       <p className="text">
         I'm a geographer and computer science student from Berlin, Germany.
         Designing interactive maps within a web framework combines these two disciplines perfectly. <br></br><br></br>
@@ -16,7 +16,7 @@ function Contact() {
         I'm keen to dive more into web development frameworks as well as extending my skills in cybersecurity!
       </p>
       </div>
-      <div className="contact">
+      <div className="buttonContainer">
         <button className="contactButtons" onClick={() => {
           window.open('mailto:pia.wolffram@yahoo.de')
         }}>EMAIL</button>
@@ -27,7 +27,7 @@ function Contact() {
           openInNewTab('https://www.linkedin.com/in/pia-wolffram-a72986197/');
         }}>LINKED-IN</button>
       </div>
-    </div>
+    </section>
   );
 }
 

@@ -12,8 +12,9 @@ L.Icon.Default.mergeOptions({
 });
 
 function Map({selection}) {
+  const widthVar = window.innerWidth > 768 ? '850px': '100%';
   return (
-      <MapContainer center={[52.52, 13.40]} zoom={1.5} scrollWheelZoom={false} style={{height:'500px', width: '850px', border: '1.5px solid  rgb(46, 57, 60)'}}>
+      <MapContainer center={[52.52, 13.40]} zoom={1.5} scrollWheelZoom={false} style={{height:'500px', width: widthVar, border: '1.5px solid  rgb(46, 57, 60)'}}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
