@@ -1,6 +1,6 @@
 function Contact() {
   const openInNewTab = url => {
-    window.open(url, '_blank', 'noopener,noreferrer');
+    window.open(url, '_blank', 'noreferrer');
   };
 
   return (
@@ -17,16 +17,13 @@ function Contact() {
       </p>
       </div>
       <div className="contact">
-        <button className="contactButtons" onClick={(e) => {
-          e.preventDefault();
-          window.open('mailto:pia.wolffram@posteo.de')
+        <button className="contactButtons" onClick={() => {
+          window.open('mailto:pia.wolffram@yahoo.de')
         }}>EMAIL</button>
-        <button className="contactButtons" onClick={(e) => {
-          e.preventDefault();
+        <button className="contactButtons" onClick={() => {
           openInNewTab('https://github.com/Piviwo');
         }}>GITHUB</button>
-        <button className="contactButtons" onClick={(e) => {
-          e.preventDefault();
+        <button className="contactButtons" onClick={() => {
           openInNewTab('https://www.linkedin.com/in/pia-wolffram-a72986197/');
         }}>LINKED-IN</button>
       </div>
