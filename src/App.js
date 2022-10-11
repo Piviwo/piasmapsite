@@ -1,24 +1,30 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './Header';
+import Buttons from './Buttons';
+import Navbar from './Navbar';
+import Map from './Map';
+import Contact from './Contact'
+import { useState } from 'react';
+
+
 
 function App() {
+  const [selection, setSelection] = useState('');
+  const [navigation, setNavigation] = useState('MAIN');
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar setNavigation={setNavigation}></Navbar>
+      {navigation === 'MAIN' &&
+        <div id='container-home'>
+          <Header></Header>
+          <Map selection={selection}></Map>
+          <Buttons setSelection={setSelection}></Buttons>
+        </div>
+      }
+      {navigation === 'CONTACT' &&
+        <Contact></Contact>
+      }
+    </>
   );
 }
 
