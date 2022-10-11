@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/piasmapsite/static/css/main.c8c65b5f.css",
+    "main.js": "/piasmapsite/static/js/main.9babdef1.js",
+    "index.html": "/piasmapsite/index.html",
+    "main.c8c65b5f.css.map": "/piasmapsite/static/css/main.c8c65b5f.css.map",
+    "main.9babdef1.js.map": "/piasmapsite/static/js/main.9babdef1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8c65b5f.css",
+    "static/js/main.9babdef1.js"
+  ]
+}
