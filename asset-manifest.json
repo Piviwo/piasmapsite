@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/piasmapsite/static/css/main.630dab4c.css",
-    "main.js": "/piasmapsite/static/js/main.98bbd23e.js",
+    "main.css": "/piasmapsite/static/css/main.48f387fe.css",
+    "main.js": "/piasmapsite/static/js/main.45fc99dc.js",
     "index.html": "/piasmapsite/index.html",
-    "main.630dab4c.css.map": "/piasmapsite/static/css/main.630dab4c.css.map",
-    "main.98bbd23e.js.map": "/piasmapsite/static/js/main.98bbd23e.js.map"
+    "main.48f387fe.css.map": "/piasmapsite/static/css/main.48f387fe.css.map",
+    "main.45fc99dc.js.map": "/piasmapsite/static/js/main.45fc99dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.630dab4c.css",
-    "static/js/main.98bbd23e.js"
+    "static/css/main.48f387fe.css",
+    "static/js/main.45fc99dc.js"
   ]
 }
