@@ -16,7 +16,7 @@ function Contact() {
         I'm keen to dive more into web development frameworks as well as extending my skills in cybersecurity!
       </p>
       </div>
-      <div className="button-bontainer">
+      <div className="button-container">
         <button className="contact-buttons" onClick={() => {
           window.open('mailto:pia.wolffram@yahoo.de')
         }}>EMAIL</button>
