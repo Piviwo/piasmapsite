@@ -15,7 +15,7 @@ function App() {
     <>
       <Navbar setNavigation={setNavigation}></Navbar>
       {navigation === 'MAIN' &&
-        <div id='container-home'>
+        <div className='home-container'>
           <Header></Header>
           <Map selection={selection}></Map>
           <Buttons setSelection={setSelection}></Buttons>
