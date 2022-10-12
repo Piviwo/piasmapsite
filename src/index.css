@@ -2,8 +2,7 @@
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: rgb(33, 44, 47);
@@ -15,6 +14,7 @@ code {
 .navbar{
   list-style-type: none;
   margin: 0;
+  margin-bottom: 20px;
   padding: 0;
   overflow: hidden;
   background-color: rgb(46, 57, 60);
@@ -39,7 +39,6 @@ code {
   flex-direction: column;
   gap: 50px;
   width: 100%;
-  height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -68,7 +67,6 @@ code {
   flex-direction: column;
   gap: 10px;
   width: 100%;
-  height: 100vh;
   justify-content: center;
   align-items: center;
 }
@@ -117,28 +115,17 @@ a:visited {
 @media only screen and (max-width: 768px) {
   /* for mobile phones: */
   /* general */
-  .navbar{
-    margin-bottom: 20px;
-  }
   .button-container{
     display: flex;
     flex-direction: column;
   }
 
-    /* home */
-  .home-container{
-    width: 100%;
-    height: unset;
-  }
+  /* home */
   .selection-buttons{
     width: 300px;
   }
 
   /* contact */
-  .contact-container{
-    width: 100%;
-    height: unset;
-  }
   .contact-buttons{
     width: 300px;
   }
